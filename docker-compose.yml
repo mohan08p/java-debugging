@@ -1,25 +1,22 @@
-database:
-  environment:
-    MYSQL_ROOT_PASSWORD: my-secret-pw
-  # Expose port 3306 to host. Not for the application but
-  # handy to inspect the database from the host machine.
-  ports:
-    - "3306:3306" 
-  image: hotblac/spanners-database:3.5
-  restart: always
-webserver:
-  links:
-    - database:spanners-database 
-    - nodejs:spanners-notifier
-  ports:
-    - "8080:8080" 
-  image: hotblac/spanners-webserver:3.5
-  restart: always
-nodejs:
-  ports:
-    - "9090:9090"
-  image: hotblac/spanners-nodejs:latest
-  restart: always
-elasticsearch:
-  image: elasticsearch:2.3.1
-  restart: always
+version: "2"
+
+services:
+  database:
+    environment:
+      MYSQL_ROOT_PASSWORD: password
+    # Expose port 3306 to host. Not for the application but
+    # handy to inspect the database from the host machine.
+    ports:
+      - "3306:3306" 
+    image: registration-database
+    restart: always
+
+  webserver:
+    volumes:
+      - ./app/target/UserSignup:/usr/local/tomcat/webapps/UserSignup
+    links:
+      - database:registration-database
+    ports:
+      - "8080:8080" 
+    image: registration-webserver
+    restart: always
