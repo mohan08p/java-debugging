@@ -1,6 +1,11 @@
 version: "2"
 
 services:
+  #tomcat:
+  #  build:
+  #    context:  ./tomcat7-debug
+  #  image: tomcat7-debug
+
   database:
     build:
       context: ./registration-database
@@ -24,6 +29,6 @@ services:
       - database:registration-database
     ports:
       - "8080:8080" 
-    image: registration-webserver
-    restart: always
+      - "8000:8000"
+    # restart: always
 

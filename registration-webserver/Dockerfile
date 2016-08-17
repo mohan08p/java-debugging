@@ -5,9 +5,15 @@ MAINTAINER Sophia Parafina <sophia.parafina@docker.com>
 # and script access for Maven deployments
 ADD tomcat/tomcat-users.xml $CATALINA_HOME/conf/
 
-# MySQL driver jar
+# add MySQL JDBC driver jar
 ADD tomcat/mysql-connector-java-5.1.36-bin.jar $CATALINA_HOME/lib/
 
-# Install spanners-mvc war from Maven repo
-# RUN wget https://s3.amazonaws.com/spara/UserSignup.war -O /usr/local/tomcat/webapps/UserSignup.war
+# create mount point for volume with application
 RUN mkdir $CATALINA_HOME/webapps/UserSignup
+
+# add jpda debugging environmental variables
+ENV JPDA_ADDRESS="8000"
+ENV JPDA_TRANSPORT="dt_socket"
+
+# start tomcat7-debug
+ENTRYPOINT ["catalina.sh", "jpda", "start"]
