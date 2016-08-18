@@ -1,3 +1,3 @@
-Webserver container for the User Signup demo app
+Webserver container for the User Signup demo application.
 
-This container is a Tomcat 7 with the UserSignup demo application already installed.
+This container is a Tomcat 7 servlet engine with remote debugging enabled.
