@@ -1,3 +1,0 @@
-#Tomcat publish data
-#Wed Aug 17 12:59:48 CDT 2016
-org.eclipse.jst.jee.server\:/binary\:/Users/sophiaparafina/.m2/repository/org/springframework/spring-web/3.2.4.RELEASE/spring-web-3.2.4.RELEASE.jar=WEB-INF/lib/spring-web-3.2.4.RELEASE.jar
