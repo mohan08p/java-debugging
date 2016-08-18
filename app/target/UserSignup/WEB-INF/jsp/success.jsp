@@ -54,12 +54,17 @@
 	 -->
 	<div class="panel panel-success">
 		<div class="panel-heading">
-			<h3 class="panel-title">DockerCon 20325 Login success</h3>
+			<h3 class="panel-title">DockerCon 2035 Login success</h3>
 		</div>
 		<div class="panel-body">
 		<div class="alert alert-dismissable alert-success">
               <button type="button" class="close" data-dismiss="alert">×</button>
-              <strong>Well done!</strong> You have successfully logged-into the system. 
+              <strong>Well done!</strong>${result.firstName} You have successfully logged-into the system.<p>
+              Here is your account information:<p>
+              Name: ${firstName} ${lastName}<br>
+              User Name: ${userName}<br>
+              Email Address: ${emailAddress}<br>
+              Date of Birth: ${dateOfBirth}<p>
               Enjoy DockerCon 2035!
             </div>
 		</div>
