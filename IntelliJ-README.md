@@ -16,9 +16,10 @@ In IntelliJ, clone the repository. Click on `Check out from Version Control` > `
 If this the first time to use IntelliJ with Github, log into your Github account.
 ![](images/intelliJ_git_login.png)
 Clone the repository [registration-docker](https://github.com/spara/registration-docker.git).
+
 ![](images/intelliJ_git_clone_repository.png)
 Click on `Import project from external model`, select `Maven`. Click `Next`
-![](images/intelliJ_github_import_maven.png)
+![](images/intellij_github_import_maven.png)
 Check `Search for projects recursively`. Click `Next`
 ![](images/intellij_github_import_maven_configure.png)
 Select the project and click `Next`
