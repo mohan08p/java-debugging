@@ -6,6 +6,6 @@ UserSignup.iml
 .project
 /out/
 /src/main/main.iml
-/.idea/
-/.settings/
+.idea
+.settings
 .classpath
