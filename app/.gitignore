@@ -1,1 +1,5 @@
 /target/
+UserSignup.war
+.DS_Store 
+.classpath
+.project

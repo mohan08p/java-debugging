@@ -59,13 +59,7 @@
 		<div class="panel-body">
 		<div class="alert alert-dismissable alert-success">
               <button type="button" class="close" data-dismiss="alert">×</button>
-              <strong>Well done!</strong>${result.firstName} You have successfully logged-into the system.<p>
-              Here is your account information:<p>
-              Name: ${firstName} ${lastName}<br>
-              User Name: ${userName}<br>
-              Email Address: ${emailAddress}<br>
-              Date of Birth: ${dateOfBirth}<p>
-              Enjoy DockerCon 2035!
+              <strong>Well done!</strong> You have successfully logged-into the system.<p>
             </div>
 		</div>
 	</div>

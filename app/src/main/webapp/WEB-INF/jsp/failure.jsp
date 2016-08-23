@@ -52,12 +52,12 @@
 
 	<div class="panel panel-danger">
 		<div class="panel-heading">
-			<h3 class="panel-title">DockerCon 2035 registration failure</h3>
+			<h3 class="panel-title">DockerCon 2035 login failure</h3>
 		</div>
 		<div class="panel-body">
 			<div class="alert alert-dismissable alert-danger">
 				<button type="button" class="close" data-dismiss="alert">×</button>
-				<strong>Oh snap!</strong> Something is wrong. Change a few things up
+				<strong>Oh snap!</strong> Something is wrong. Check your password
 				and try submitting again.
 			</div>
 		</div>
