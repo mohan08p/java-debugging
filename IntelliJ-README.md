@@ -20,17 +20,27 @@ Clone the repository [registration-docker](https://github.com/spara/registration
 
 ![](images/intelliJ_git_clone_repository.png)
 Click on `Import project from external model`, select `Maven`. Click `Next`
+
 ![](images/intellij_github_import_maven.png)
+
 Check `Search for projects recursively`. Click `Next`
+
 ![](images/intellij_github_import_maven_configure.png)
+
 Select the project and click `Next`
+
 ![](images/intellij_github_import_maven_select.png)
+
 Select the JDK and click `Next`
 
 ![](images/intellij_github_import_select_sdk.png)
+
 Click `Finish`
+
 ![](images/intellij_github_import_project_finish.png)
+
 Click on `Project View` to open the project.
+
 ![](images/intelliJ_git_open_project_gui.png)
 
 ### Building the application
