@@ -26,6 +26,7 @@ Check `Search for projects recursively`. Click `Next`
 Select the project and click `Next`
 ![](images/intellij_github_import_maven_select.png)
 Select the JDK and click `Next`
+
 ![](images/intellij_github_import_select_sdk.png)
 Click `Finish`
 ![](images/intellij_github_import_project_finish.png)
