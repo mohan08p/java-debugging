@@ -12,3 +12,5 @@ This tutorial includes Docker images and an application for Java development usi
 * [Eclipse](Eclipse-README.md)
 * [IntelliJ](IntelliJ-README.md)
 * [NetBeans](NetBeans-README.md)
+
+Before starting the tutorial, please have [Docker](https://www.docker.com/products/overview) installed.
