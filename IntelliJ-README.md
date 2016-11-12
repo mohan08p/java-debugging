@@ -16,7 +16,7 @@ In IntelliJ, clone the repository. Click on `Check out from Version Control` > `
 If this the first time to use IntelliJ with Github, log into your Github account.
 ![](images/intelliJ_git_login.png)
 
-Clone the repository [registration-docker](https://github.com/spara/registration-docker.git).
+Clone the repository [registration-docker](https://github.com/spara/java-debugging.git).
 
 ![](images/intelliJ_git_clone_repository.png)
 Click on `Import project from external model`, select `Maven`. Click `Next`
@@ -51,7 +51,7 @@ The application is built using Maven. To build the application click on icon on 
 
 ![](images/intellij_maven_setup.png)
 
-The `Maven Projects` window will open ont the right side. Maven goals of `clean` and `install` need to be set to build the application.
+The `Maven Projects` window will open on the right side. Maven goals of `clean` and `install` need to be set to build the application.
 
 To set the `clean` goal, click on `Lifecycle` to display the tree of goals. Right click on `clean` and select `Create 'UserSignup [clean]'...`
 
@@ -134,7 +134,7 @@ Add a new remote configuration.
 
 ![](images/intellij_debug_add_remote_configuration.png)
 
-In the `Run\Debug Configurations` window, set the `Name` of the configuration and in `Settings` set the port to '8000' the default Tomcat JPDA debuging port. Clcik on `OK` to save the configuration.
+In the `Run\Debug Configurations` window, set the `Name` of the configuration and in `Settings` set the port to '8000' the default Tomcat JPDA debugging port. Click on `OK` to save the configuration.
 
 ![](images/intellij_debug_tomcat_remote_settings.png)
 
